@@ -1,0 +1,22 @@
+{% extends '/home/eduardocarvalhogoncalvesdasilva/python/teste_django/home/templates/home/index.html'%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    {% include '/home/eduardocarvalhogoncalvesdasilva/python/teste_django/home/templates/home/index.html' %}
+
+    <h1> BASE </h1>
+
+    {% include 'global/partials/head.html' %}
+
+    {% include 'global/partials/paragrafo.html' %}
+
+    <link rel="stylesheet" href="{% static "blue.css" %}">
+</body>
+</html>

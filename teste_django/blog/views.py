@@ -5,7 +5,7 @@ def blog(request):
     print('blog1')
     return render(
         request,
-        'blog/home.html'
+        'blog/index.html'
     )
 
 def exemplo(request):
